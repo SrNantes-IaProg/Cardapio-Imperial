@@ -180,7 +180,7 @@
             <div class="img-container"><img src="ninho.jpeg" onclick="event.stopPropagation(); abrirImagemModal(this.src)"></div>
             <div class="detalhes">
                 <h3>Ninho Imperial</h3>
-                <p style="color: var(--ouro); font-weight: 600; margin: 5px 0;">R$ 6,00</p>
+                <p style="color: var(--ouro); font-weight: 600; margin: 5px 0;">R$ 7,00</p>
                 <div class="controles-qtd">
                     <button class="btn-qtd" onclick="event.stopPropagation(); alterarQtdCard('ninho', -1)">-</button>
                     <span class="qtd-num" id="qtd-ninho">1</span>
@@ -194,7 +194,7 @@
             <div class="img-container"><img src="capuccino.jpeg" onclick="event.stopPropagation(); abrirImagemModal(this.src)"></div>
             <div class="detalhes">
                 <h3>Capuccino Imperial</h3>
-                <p style="color: var(--ouro); font-weight: 600; margin: 5px 0;">R$ 6,00</p>
+                <p style="color: var(--ouro); font-weight: 600; margin: 5px 0;">R$ 7,00</p>
                 <div class="controles-qtd">
                     <button class="btn-qtd" onclick="event.stopPropagation(); alterarQtdCard('capuccino', -1)">-</button>
                     <span class="qtd-num" id="qtd-capuccino">1</span>
@@ -352,7 +352,7 @@
         const imgs = document.querySelectorAll('.img-container img');
         const scrollY = window.scrollY;
         imgs.forEach(img => {
-            img.style.setProperty('--scroll-y', `${-scrollY * 0.05}px`);
+            img.style.setProperty('--scroll-y', `${-scrollY * 0.015}px`);
         });
     });
 </script>
